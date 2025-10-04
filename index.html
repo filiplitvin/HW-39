@@ -19,9 +19,42 @@
         class="navbar bg-success-subtle shadow p-3 mb-5 bg-body-tertiary rounded"
       >
         <div class="container-fluid">
-          <a class="navbar-brand text-success fs-1 fw-bold font-monospace"
-            >PlayLike</a
-          >
+          <a
+            href="./index.html"
+            class="navbar-brand text-success fs-1 fw-bold font-monospace"
+            ><img
+              src="./src/img/logo.webp"
+              width="125px"
+              height="125px"
+              alt="logo"
+          /></a>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-success d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2 fs-4"
+                style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25)"
+                aria-current="page"
+                href="#"
+                >Nintendo</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-success d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2 fs-4"
+                style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25)"
+                href="#"
+                >PlayStation</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-success d-inline-flex focus-ring py-1 px-2 text-decoration-none border rounded-2 fs-4"
+                style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), 0.25)"
+                href="#"
+                >Xbox</a
+              >
+            </li>
+          </ul>
           <form class="d-flex opacity-75" role="search">
             <input
               class="form-control me-2"
@@ -38,9 +71,9 @@
     </header>
     <main>
       <div class="container-fluid">
-        <ul class="row">
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+        <ul class="row row-cols-3 w-100">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/alan.webp"
                 class="card-img-top"
@@ -57,8 +90,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/assassin.jpg"
                 class="card-img-top"
@@ -75,8 +108,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/far-cry.jpg"
                 class="card-img-top"
@@ -95,8 +128,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/little-n.jpg"
                 class="card-img-top"
@@ -113,8 +146,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/metro.jpg"
                 class="card-img-top"
@@ -131,8 +164,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/resident.jpg"
                 class="card-img-top"
@@ -149,8 +182,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/tlou2.jpg"
                 class="card-img-top"
@@ -167,8 +200,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/tomb-raider.jpg"
                 class="card-img-top"
@@ -188,8 +221,8 @@
               </div>
             </div>
           </li>
-          <li class="col-12">
-            <div class="card" style="width: 18rem">
+          <li class="col-4">
+            <div class="card">
               <img
                 src="./src/img/wukong.jpg"
                 class="card-img-top"
@@ -208,6 +241,25 @@
           </li>
         </ul>
       </div>
+      <section
+        class="bg-secondary-subtle d-flex justify-content-center align-items-center flex-column mb-3"
+        style="min-height: 300px"
+      >
+        <p class="text-decoration-underline w-50 p-3 text-success">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          laboriosam quos excepturi hic cupiditate distinctio dolor similique,
+          eius a cumque assumenda aliquid nesciunt error iusto architecto
+          recusandae ea sapiente mollitia eveniet deleniti velit aut et labore
+          autem. Perspiciatis cupiditate laboriosam minus, nam voluptatum omnis
+          maiores laborum alias id molestiae minima!
+        </p>
+        <div class="d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-outline-success">
+            More about us
+          </button>
+        </div>
+      </section>
+      <section></section>
     </main>
     <footer>
       <div class="card text-bg-success mb-3" style="max-width: 18rem">
